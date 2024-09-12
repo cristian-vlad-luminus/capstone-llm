@@ -17,4 +17,4 @@ COPY . .
 
 RUN pip install .
 
-CMD ["python3", "-m capstonellm.tasks.clean -e local -t dbt"]
+CMD ["python3 -m capstonellm.tasks.clean -e local -t dbt"]
