@@ -16,5 +16,3 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . . 
 
 RUN pip install .
-
-CMD ["python3 -m capstonellm.tasks.clean -e local -t dbt"]

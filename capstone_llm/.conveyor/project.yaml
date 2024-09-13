@@ -1,0 +1,15 @@
+docker:
+    path: .
+id: 53889257-5ef6-4a6d-84d3-21d73a22a3d7
+ide:
+    filename: ide.yaml
+name: capstone-cristian
+resources:
+    path: resources
+streaming:
+    filename: streaming.yaml
+template: ""
+version: "0.3"
+workflows:
+    path: dags
+    version: "2"
